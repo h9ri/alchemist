@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>practis</title>
+  </head>
+  <body>
+<p id="demo"></p>
+    <script type="text/javascript">
+    var cars=['auto','nano','rollsroys'];
+    var len =cars.length;
+    var i=0;
+    var text="";
+    text+="<ul>";
+    for (i=0;i<len;i++){
+        text+="<li>";
+        text+=cars[i];
+        text+="</li>";
+        text+="<br>";
+      }
+      text+="</ul>"
+      document.getElementById('demo').innerHTML=text;
+    </script>
+  </body>
+</html>
